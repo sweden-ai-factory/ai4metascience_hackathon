@@ -14,7 +14,7 @@ Below are the recommended settings for configuring your interactive Jupyter sess
 - **Project:** Select `project_465002387` – RISE Research Institutes of Sweden AB / ENCCS Training
 
 - **Course module:** Select the appropriate module for the course.
-  - `ai4metascience_hackathon`
+  - `ai4metascience`
 - **Working directory:** Select `/scratch/project_465002387`
 
 #### **Show custom resource settings:** Enable this option if you need to configure additional resource parameters.

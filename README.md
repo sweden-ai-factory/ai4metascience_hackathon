@@ -37,9 +37,9 @@ Follow the instructions in this guide to configure your session and access the h
 
 Guides and examples will be provided for:
 
-- **Python packages:** How to add additional pip packages to the container.
-- **SLURM jobs:** How to submit and manage computational jobs on LUMI.
-- **API access:** How to use AITTA to generate API tokens and configure API access.
+- **Python packages:** How to add additional pip packages to the container. **[Create env](notebooks/introduction.ipynb)**
+- **SLURM jobs:** How to submit and manage computational jobs on LUMI. **[Slurm script](notebooks/script.sbatch)**
+- **API access:** How to use AITTA to generate API tokens and configure API access. **[Aitta API](notebooks/aitta.ipynb)**
 
 Detailed instructions and example scripts will be added to the `docs/` and `scripts/` directories.
 
