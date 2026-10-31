@@ -12,11 +12,9 @@ Each participant receives an individual copy of the repository through the Jupyt
 
 ```text
 .
-├── notebooks/          # Jupyter notebooks
-├── scripts/            # Scripts for running jobs on LUMI
+├── notebooks/          # Jupyter notebooks and Scripts for running jobs on LUMI
 ├── docs/               # Setup guides and documentation
 ├── README.md
-└── requirements.txt
 ```
 
 The repository will be expanded with additional notebooks, scripts, and documentation as the hackathon materials develop.
@@ -27,34 +25,13 @@ The repository will be expanded with additional notebooks, scripts, and document
 
 Go to the [LUMI Open OnDemand interface](https://www.lumi.csc.fi/public/) and click **Log in to LUMI**.
 
-### 2. Select Jupyter for Courses
+### 2. Set up your Jupyter environment
 
-Navigate to **Jupyter for Courses** and select the AI4Metascience Hackathon environment.
+To access the AI4Metascience Hackathon course environment, select **Jupyter for Courses**. Detailed instructions on how to configure and launch your Jupyter session are provided in the following guide:
 
-### 3. Configure your interactive session
+**[Setting Up the Jupyter Environment](docs/setting-jupyter-environment.md)**
 
-Use the following settings:
-
-**Setup your environment**
-
-- **Project:** `project_465002387`
-- **Partition:** `dev-g`
-
-**Resources**
-
-- **Number of CPU cores:** `8`
-- **Memory (GiB):** `16`
-- **Number of GPUs:** `1`
-- **Time:** `3:00:00`
-
-**Settings**
-
-- **Working directory:** `/projappl/project_465002387`
-- **Show advanced settings:** Enable (`1`)
-
-### 4. Launch JupyterLab
-
-Launch the session and wait for JupyterLab to become available. Open the `notebooks/` directory and start working!
+Follow the instructions in this guide to configure your session and access the hackathon materials.
 
 ## Additional documentation
 
@@ -72,4 +49,4 @@ Detailed instructions and example scripts will be added to the `docs/` and `scri
 
 10–17 November 2026
 
-More information: https://luma.com/6b08hj2b
+More information: [https://luma.com/6b08hj2b](https://luma.com/6b08hj2b)
