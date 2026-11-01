@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH --job-name=metascience
 #SBATCH --account=project_465002387
@@ -25,9 +24,7 @@ export MIOPEN_USER_DB_PATH=$STORAGE/miopen-cache
 export MIOPEN_CUSTOM_CACHE_DIR=$STORAGE/miopen-cache
 
 # Run hackathon application
-srun singularity run $SIF bash -c "
-source /pfs/lustrep4/scratch/project_465002387/$USER/ai4metascience_hackathon/my-env/bin/activate &&
-python3 sample.py"
-
-
-
+srun singularity run "$SIF" bash -c "
+# source $STORAGE/my-env/bin/activate &&
+python3 sample.py
+"
